@@ -132,7 +132,14 @@ header {
       bottom: 120px;
       right: 140px;
     }
-
+ 
+  .hero-cta {
+    color:#39a6b2;
+    text-align: left;
+    position: absolute;
+    width: 1000px;
+    top: 130px;
+    }
     .hero-form h3 {
       font-size: 24px;
       margin: 0;
