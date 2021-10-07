@@ -286,11 +286,14 @@ header {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
- }
-
- .step:not(:last-child) {
   border-bottom: 1px solid #39a6b2;
 }
+
+.step:last-child {
+  border-bottom: none;
+}
+
+
 
 .step-img {
   flex: 1 12%;
